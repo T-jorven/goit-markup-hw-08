@@ -625,6 +625,11 @@ img {
     padding-left: 25px;
     padding-top: 48px;
     padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
   }
   .mobile-menu__contact-email {
     font-weight: 500;
