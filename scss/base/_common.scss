@@ -23,11 +23,6 @@ body {
   padding-bottom: 94px;
 }
 
-.list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 
 .menu-list--current.link,
 .menu-list--inactive.link,
@@ -79,4 +74,7 @@ img {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+.link {
+	text-decoration: none;
 }

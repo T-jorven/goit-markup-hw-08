@@ -57,11 +57,6 @@
     padding-top: 94px;
     padding-bottom: 94px;
   }
-  .list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
   .menu-list--current.link,
   .menu-list--inactive.link,
   .contact.link,
@@ -114,6 +109,10 @@ img {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.link {
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1200px) {
@@ -597,6 +596,8 @@ img {
   height: 0px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   transform: rotate(90deg);
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 @media screen and (min-width: 1200px) {
