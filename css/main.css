@@ -535,6 +535,24 @@ img {
   }
 }
 
+.logo-body {
+  font-family: "Raleway", "Sans-serif";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
+.logo-body__header {
+  color: var(--header-studio);
+}
+
+.logo-body__footer {
+  color: var(--logo2-footer);
+}
+
 @media screen and (min-width: 1200px) {
   .menu-list:not(:last-child) {
     margin-right: 50px;
