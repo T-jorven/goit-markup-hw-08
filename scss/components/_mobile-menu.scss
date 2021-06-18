@@ -1,0 +1,11 @@
+.phone-menu__icon{
+    height: 40px;
+    width: 40px;
+
+    &:hover {
+        fill: var(--accent-color);
+    }
+    &:focus {
+        fill: var(--accent-color);
+    }
+}

@@ -553,6 +553,19 @@ img {
   color: var(--logo2-footer);
 }
 
+.phone-menu__icon {
+  height: 40px;
+  width: 40px;
+}
+
+.phone-menu__icon:hover {
+  fill: var(--accent-color);
+}
+
+.phone-menu__icon:focus {
+  fill: var(--accent-color);
+}
+
 @media screen and (min-width: 1200px) {
   .menu-list:not(:last-child) {
     margin-right: 50px;
