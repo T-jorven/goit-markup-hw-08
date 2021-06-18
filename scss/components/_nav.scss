@@ -48,7 +48,7 @@
 	display: flex;
 	flex-direction: row;}
 }}
-
+@media screen and (max-width: 480px) {
 .nav-body__menu {
 	display: none;
-}
+}}
