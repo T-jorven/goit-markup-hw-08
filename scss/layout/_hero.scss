@@ -22,9 +22,36 @@
 }
 .hero-body {
 	width: 770px;
+}}
+
+
+.hero{
+	min-height: 400px;
+	background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ), url("../images/hero/mobile/hero-mobile.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+	&-body__heading{
+	padding-top: 118px;
+	font-weight: 900;
+	font-size: 26px;
+	line-height: 1.6;
+
+	/* or 162% */
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+
+	color: var(--clear-white);
+	}
 }
 .hero-body__button {
+	display: block;
+	margin: 30px auto 0;
+	text-align: center;
 	cursor: pointer;
+	margin-top: 40px;
 	background: var(--accent-color);
 	font-weight: bold;
 	font-size: 16px;
@@ -43,4 +70,4 @@
 	&:hover {
 		background: var(--button-focus);
 	}
-}}
+}

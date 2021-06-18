@@ -215,13 +215,25 @@
           <h2 class="title">Наша команда</h2>
           <ul class="company-team list">
             <li class="team-item">
-              <img
-                class="team-photo"
-                src="images/mainpage/product-designer.jpg"
-                alt="A photo of the company's Product Designer"
-                width="270"
-                height="260"
-              />
+               <picture>
+                                <source srcset="./images/team/desktop/Ihor_desktop.webp 1x, ./images/team/desktop/Ihor_desktop@2x.webp 2x"
+                                    media="(min-width: 1200px)" type="image/webp">
+                                <source 
+                                srcset="./images/team/desktop/Ihor_desktop.jpg 1x, ./images/team/desktop/Ihor_desktop@2x.jpg 2x"
+                                    media="(min-width: 1200px)">
+                                <source srcset="./images/team/tablet/Ihor_tablet.webp 1x, ./images/team/tablet/Ihor_tablet@2x.webp 2x"
+                                    media="(min-width: 768px)" type="image/webp">
+                                <source 
+                                    srcset="./images/team/tablet/Ihor_tablet.jpg 1x, ./images/team/tablet/Ihor_tablet@2x.jpg 2x" 
+                                    media="(min-width: 768px)">
+                                <source srcset="./images/team/mobile/Ihor_mobile.webp 1x, ./images/team/mobile/Ihor_mobile@2x.webp 2x"
+                                    media="(max-width: 768px)" type="image/webp">
+                                <source 
+                                srcset="./images/team/mobile/Ihor_mobile.jpg 1x, ./images/team/mobile/Ihor_mobile@2x.jpg 2x"
+                                    media="(max-width: 768px)">
+                                <img class="team-member-card__image" src="./images/team/mobile/Ihor_mobile.jpg" 
+                                alt="A photo of the company's Product Designer">
+                            </picture>
               <div class="team-card">
                 <h3 class="team-card__heading">Игорь Демьяненко</h3>
                 <p class="team-card__role">Product Designer</p>
