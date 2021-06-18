@@ -1,4 +1,7 @@
-.header__mobile-menu-icon{
+
+
+@media screen and (max-width: 767px) {
+    .header__mobile-menu-icon{
     height: 40px;
     width: 40px;
     
@@ -22,6 +25,13 @@
     background-color: var(--clear-white);
     overflow: auto;
     
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition-property: opacity, visibility;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
     &__item:not(:last-child){
         padding-bottom: 32px;
     }
@@ -60,10 +70,38 @@
         padding-left: 25px;
         padding-top: 48px;
         padding-bottom: 48px;}
-}
+    &__contact-email{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.17;
+        letter-spacing: 0.02em;
+        padding-bottom: 64px;
+        display: block;
+        color: var(--main-text-color);
+    }
+    &__contact-phone{
+        color: var(--accent-color);
+        font-weight: 500;
+        font-size: 35px;
+        line-height: 1.17;
+        letter-spacing: 0.02em;
+        margin-bottom: 32px;
+        display: block;
+    }
+    &__social-media-item{
+        
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.17;
+        letter-spacing: 0.02em;
+        display: block;
 
-
-.mobile-menu__social-media-item:not(:last-child)::after {
+    }
+    &__social-media-link{
+        color: var(--accent-color);
+    }
+    &__social-media-item:not(:last-child)::after {
     content: "";
     width: 22px;
     height: 0px;
@@ -72,6 +110,10 @@
     margin-right: 10px;
     margin-left: 10px;
 }
+}
+
+
+
 
 
 .modal-form__close-icon:hover{
@@ -80,17 +122,21 @@
 
 //mobile menu open logic
 
-.mobile-menu{
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-    transition-property: opacity, visibility;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  
-}
 .mobile-menu.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+}
+}
+
+@media screen and (min-width: 768px){
+.mobile-menu {
+    display: none;
+}
+.header__mobile-menu-icon {
+    display: none;
+}
+.header__mobile-menu-btn {
+    display: none;
+}
 }
