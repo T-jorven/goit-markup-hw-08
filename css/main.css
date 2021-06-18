@@ -553,17 +553,32 @@ img {
   color: var(--logo2-footer);
 }
 
-.phone-menu__icon {
+.header__mobile-menu-icon {
   height: 40px;
   width: 40px;
 }
 
-.phone-menu__icon:hover {
+.header__mobile-menu-icon:hover {
   fill: var(--accent-color);
 }
 
-.phone-menu__icon:focus {
+.header__mobile-menu-icon:focus {
   fill: var(--accent-color);
+}
+
+.header__mobile-menu-btn {
+  border: none;
+  background-color: var(--clear-white);
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--clear-white);
+  overflow: auto;
 }
 
 @media screen and (min-width: 1200px) {

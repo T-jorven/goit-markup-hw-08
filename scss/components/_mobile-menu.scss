@@ -1,11 +1,24 @@
-.phone-menu__icon{
+.header__mobile-menu-icon{
     height: 40px;
     width: 40px;
-
+    
     &:hover {
         fill: var(--accent-color);
     }
     &:focus {
         fill: var(--accent-color);
     }
+}
+.header__mobile-menu-btn {
+    border: none;
+    background-color: var(--clear-white);
+}
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--clear-white);
+    overflow: auto;
 }

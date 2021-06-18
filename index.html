@@ -55,11 +55,25 @@
             </a>
           </li>
         </ul>
-      <div class="phone-menu">
-        <svg class="phone-menu__icon">
-                <use href="images/sprite.svg#icon-menu"></use>
-              </svg>
-      </div>
+         <button type="button" class="header__mobile-menu-btn" data-menu-button>
+                <svg class="header__mobile-menu-icon">
+                     <use href="images/sprite.svg#icon-menu"></use>
+                </svg>
+    </button>
+      <div class="mobile-menu" data-menu>
+            <div class="container mobile-menu__container">
+                <button type="button" class="mobile-menu__close-btn" data-menu-close>
+                  <svg class="modal-form__close-icon" width="18px" height="18px">
+            <use href="images/sprite.svg#icon-close_mobile"></use>
+          </svg>
+                </button>
+                <ul class="mobile-menu__nav list">
+                    <li class="mobile-menu__item"><a href="" class="mobile-menu__link link">link-1</a></li>
+                    <li class="mobile-menu__item"><a href="" class="mobile-menu__link link">link-2</a></li>
+                    <li class="mobile-menu__item"><a href="" class="mobile-menu__link link">link-3</a></li>
+                    <li class="mobile-menu__item"><a href="" class="mobile-menu__link link">link-4</a></li>
+                </ul>
+            </div>
       </div>
     </header>
     <main>
@@ -550,5 +564,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+     <script src="./js/menu.js"></script>
   </body>
 </html>
