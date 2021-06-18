@@ -1,0 +1,31 @@
+//UTILS
+@import "./utils/variables.scss";
+@import "./utils/visually-hidden";
+
+// BASE
+@import "./base/common";
+@import "./base/container";
+
+
+//COMPONENTS 
+@import "./components/modal";
+@import "./components/backdrop";
+@import "./components/contacts";
+@import "./components/filtering-button";
+@import "./components/join-media";
+@import "./components/join-media";
+@import "./components/logo";
+@import "./components/nav";
+@import "./components/overlay";
+@import "./components/portfolio-cards";
+@import "./components/subscription-box";
+
+//LAYOUT
+@import "./layout/advanteges";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/overview";
+@import "./layout/team";
+

@@ -1,0 +1,26 @@
+:root {
+  --main-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --background-color: #e5e5e5;
+  --header-studio: #000000;
+  --footer-background: #2f303a;
+  --clear-white: #ffffff;
+  --contact-footer: rgba(255, 255, 255, 0.6);
+  --logo2-footer: rgba(255, 255, 255, 1);
+  --button-sorting: #f5f4fa;
+  --button-focus: #188ce8;
+  --box-shadow: rgba(0, 0, 0, 0.15);
+  --portfolio-card-border: #eeeeee;
+  --header-border: #ececec;
+  --hero-background: #c4c4c4;
+  --team-icon: #afb1b8;
+  --link-transparency: #ffffff1a;
+  --backdrop: rgba(0, 0, 0, 0.2);
+  --overlay: rgba(33, 150, 243, 0.9);
+  --item-description: rgba(255, 255, 255, 1);
+  --form-text-color: rgba(117, 117, 117, 1);
+  --modal-form-head: rgba(33, 33, 33, 1);
+  --transition-cubic: cubic-bezier(0.4, 0, 0.2, 1);
+}
+/*# sourceMappingURL=variables.css.map */

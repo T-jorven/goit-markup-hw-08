@@ -1,0 +1,28 @@
+.advantages {
+	display: flex;
+	padding-top: 95px;
+	padding-bottom: 95px;
+}
+.advantages-item {
+	&:not(:first-child) {
+		margin-left: 30px;
+	}
+    &__icon {
+	background-color: var(--button-sorting);
+	height: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 30px;}
+    &__heading {
+	text-transform: uppercase;
+	line-height: 1.17;
+	color: var(--title-text-color);
+	margin-bottom: 10px;
+	border-radius: 4px;}
+    &__description {
+	width: 270px;
+	height: 101px;
+	box-sizing: content-box;
+	justify-content: space-between;}
+}

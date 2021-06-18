@@ -1,0 +1,38 @@
+.product-animation {
+  position: relative;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: var(--overlay);
+	overflow: auto;
+	transform: translateY(100%);
+	transition: transform 250ms var(--transition-cubic);
+}
+.portfolio-link {
+	&:focus .overlay {
+			transform: translateY(0%);
+			opacity: 1;}
+
+	&:hover .overlay {
+			transform: translateY(0%);
+			opacity: 1;}
+}
+.product-animation {
+	overflow: hidden;
+}
+.item-description {
+	width: 322px;
+	height: 168px;
+	color: var(--item-description);
+	font-size: 18px;
+	line-height: 1.5;
+	padding-top: 63px;
+	padding-left: 24px;
+	padding-bottom: 24px;
+	margin: 0;
+	padding: 63px 24px;
+}

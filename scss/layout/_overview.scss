@@ -1,0 +1,35 @@
+.overview-section {
+	padding-bottom: 95px;
+}
+.overview-body {
+	display: flex;
+	margin-left: -30px;
+	margin-top: -30px;
+}
+.overview-item {
+	position: relative;
+
+    &__text {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.1;
+	text-align: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--clear-white);
+	position: absolute;
+	background-color: rgba(47, 48, 58, 0.8);
+	bottom: 0;
+	left: 30px;
+	width: 370px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;}
+    &__image {
+	margin-left: 30px;
+	margin-top: 30px;}
+}
+.overview-text {
+	margin-right: -30px;
+}
