@@ -1,4 +1,4 @@
-
+@media screen and (min-width: 1200px) {
 .subscription__heading {
   font-weight: bold;
   font-size: 14px;
@@ -72,4 +72,5 @@
 .subscription-btn__icon {
 	fill: var(--clear-white);
 	margin-left: 10px;
+}
 }

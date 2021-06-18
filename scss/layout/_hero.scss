@@ -1,3 +1,4 @@
+@media screen and (min-width: 1200px) {
 .hero {
 	background-color: var(--hero-background);
 	text-align: center;
@@ -42,4 +43,4 @@
 	&:hover {
 		background: var(--button-focus);
 	}
-}
+}}

@@ -1,3 +1,4 @@
+@media screen and (min-width: 1200px) {
 .modal-form {
   position: relative;
   width: 528px;
@@ -185,4 +186,5 @@
   &:focus {
     background: var(--button-focus);
   }
+}
 }
