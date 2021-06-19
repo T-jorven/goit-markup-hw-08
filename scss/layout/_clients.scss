@@ -32,10 +32,59 @@
 			fill: var(--accent-color);
 		}
 	}
-}
+}}
 .icon-company {
 	width: 106px;
 	height: 60px;
 	fill: var(--team-icon);
 }
+
+
+.company-link {
+	width: 170px;
+	height: 92px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid var(--team-icon);
+	border-radius: 4px;
+	transition: border 250ms var(--transition-cubic);
+	.icon-company {
+		transition: fill 250ms var(--transition-cubic);
+	}
+	&:hover {
+		border: 1px solid var(--accent-color);
+		.icon-company {
+			fill: var(--accent-color);
+		}
+	}
+	&:focus {
+		border: 1px solid var(--accent-color);
+		.icon-company {
+			fill: var(--accent-color);
+		}
+	}
+}
+.clients {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -30px;
+	margin-top: -30px;
+	justify-content: center;
+	
+	&__item{
+		flex-basis: calc(100% / 2 - 30px);
+	margin-top: 30px;
+	margin-left: 30px;
+	height: 90px;
+	display: block;
+		
+	}
+
+    &-section {
+	background-color: var(--clear-white);
+	padding-top: 60px;
+	padding-bottom: 60px;
+	
+	}
 }

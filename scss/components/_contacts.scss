@@ -40,10 +40,22 @@
 }
 
 
+}
+
+.contact-body {
+	display: none;
+}
 .contact-footer {
 	color: var(--contact-footer);
 	letter-spacing: 0.03em;
+	&hover,
+	&focus{
+		color: var(--accent-color);
+		transition: color 250ms var(--transition-cubic);
+
+	}
 }
+
 
 .address {
 	color: var(--clear-white);
@@ -51,19 +63,9 @@
 	font-weight: normal;
 	line-height: 1.7;
 	letter-spacing: 0.03em;
-	
-	&__location {
- 	 margin-bottom: 9px;
-  	 margin-top: 0;}
-	&__body {
-		margin-right: 70px;}
-}
-.address__contacts {
-	&:not(:last-child) {
-		margin-bottom: 9px;
+	&__location{
+		margin-bottom: 0;
 	}
-}}
+	
+	}
 
-.contact-body {
-	display: none;
-}

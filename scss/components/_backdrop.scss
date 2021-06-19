@@ -1,6 +1,4 @@
-
-@media screen and (min-width: 1200px) {
-  .backdrop {
+.backdrop {
   position: fixed;
 
   left: 0;
@@ -17,5 +15,4 @@
   transition: opacity 250ms var(--transition-cubic),
     visibility 250ms var(--transition-cubic);
   pointer-events: none;
-  visibility: hidden;
-}}
+  visibility: hidden;}
