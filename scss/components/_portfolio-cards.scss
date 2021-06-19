@@ -46,3 +46,33 @@
 	}
 }
 }
+
+
+
+//mobile
+
+.portfolio-card {
+	background: var(--clear-white);
+	border-bottom: 1px solid var(--portfolio-card-border);
+	border-left: 1px solid var(--portfolio-card-border);
+	border-right: 1px solid var(--portfolio-card-border);
+	box-sizing: border-box;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+    &__title {
+	color: var(--title-text-color);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	margin-bottom: 4px;}
+
+    &__description {
+	font-size: 16px;
+	line-height: 1.8;
+	letter-spacing: 0.03em;
+	color: var(--main-text-color);}
+}
