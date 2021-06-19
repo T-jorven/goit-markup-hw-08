@@ -68,7 +68,9 @@ ul {
 	}
 }
 img {
-	display: block;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 .list {
   list-style: none;
@@ -86,3 +88,5 @@ img {
 	font-size: 28px;
 	margin-bottom: 30px;
 }
+
+

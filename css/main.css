@@ -103,6 +103,8 @@ ul p {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .list {
@@ -147,6 +149,24 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1222,8 +1242,9 @@ img {
   padding-bottom: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin-bottom: 30px;
 }
 
 .team-card__role {
@@ -1270,5 +1291,7 @@ img {
 
 .team-photo {
   border-radius: 0px;
+  margin-top: 30px;
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */

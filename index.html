@@ -270,13 +270,25 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                class="team-photo"
-                src="images/mainpage/frontend-developer.jpg"
-                alt="A photo of the company's Frontend Developer"
-                width="270"
-                height="260"
-              />
+               <picture  class="team-photo">
+              <source srcset="./images/team/desktop/frontend-developer_desktop.webp 1x, ./images/team/desktop/frontend-developer_desktop@2x.webp 2x"
+                                    media="(min-width: 1200px)" type="image/webp">
+                                <source 
+                                srcset="./images/team/tablet/frontend-developer_tablet.jpg 1x, ./images/team/tablet/frontend-developer_tablet@2x.jpg 2x"
+                                    media="(min-width: 1200px)">
+                                <source srcset="./images/team/tablet/frontend-developer_tablet.webp 1x, ./images/team/tablet/frontend-developer_tablet@2x.webp 2x"
+                                    media="(min-width: 768px)" type="image/webp">
+                                <source 
+                                    srcset="./images/team/tablet/frontend-developer_tablet.jpg 1x, ./images/team/tablet/frontend-developer_tablet@2x.jpg 2x" 
+                                    media="(min-width: 768px)">
+                                <source srcset="./images/team/mobile/frontend-developer_mobile.webp 1x, ./images/team/mobile/frontend-developer_mobile@2x.webp 2x"
+                                    media="(max-width: 768px)" type="image/webp">
+                                <source 
+                                srcset="./images/team/mobile/frontend-developer_mobile.jpg 1x, ./images/team/mobile/product-designer_mobile@2x.jpg 2x"
+                                    media="(max-width: 768px)">
+                                <img class="team-member-card__image" src="./images/team/mobile/frontend-developer_mobile.jpg" 
+                                alt="A photo of the company's Frontend Developer">
+                            </picture>              
               <div class="team-card">
                 <h3 class="team-card__heading">Ольга Репина</h3>
                 <p class="team-card__role">Frontend Developer</p>
@@ -313,13 +325,25 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                class="team-photo"
-                src="images/mainpage/marketing-director.jpg"
-                alt="A photo of the company's Marketing Director"
-                width="270"
-                height="260"
-              />
+              <picture  class="team-photo">
+              <source srcset="./images/team/desktop/frontend-developer_desktop.webp 1x, ./images/team/desktop/frontend-developer_desktop@2x.webp 2x"
+                                    media="(min-width: 1200px)" type="image/webp">
+                                <source 
+                                srcset="./images/team/tablet/frontend-developer_tablet.jpg 1x, ./images/team/tablet/frontend-developer_tablet@2x.jpg 2x"
+                                    media="(min-width: 1200px)">
+                                <source srcset="./images/team/tablet/frontend-developer_tablet.webp 1x, ./images/team/tablet/frontend-developer_tablet@2x.webp 2x"
+                                    media="(min-width: 768px)" type="image/webp">
+                                <source 
+                                    srcset="./images/team/tablet/frontend-developer_tablet.jpg 1x, ./images/team/tablet/frontend-developer_tablet@2x.jpg 2x" 
+                                    media="(min-width: 768px)">
+                                <source srcset="./images/team/mobile/frontend-developer_mobile.webp 1x, ./images/team/mobile/frontend-developer_mobile@2x.webp 2x"
+                                    media="(max-width: 768px)" type="image/webp">
+                                <source 
+                                srcset="./images/team/mobile/frontend-developer_mobile.jpg 1x, ./images/team/mobile/product-designer_mobile@2x.jpg 2x"
+                                    media="(max-width: 768px)">
+                                <img class="team-member-card__image" src="./images/team/mobile/frontend-developer_mobile.jpg" 
+                                alt="A photo of the company's Marketing Director">
+                            </picture>      
               <div class="team-card">
                 <h3 class="team-card__heading">Николай Тарасов</h3>
                 <p class="team-card__role">Marketing</p>
