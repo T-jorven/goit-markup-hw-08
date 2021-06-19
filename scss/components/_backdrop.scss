@@ -8,6 +8,7 @@
   background-color: var(--backdrop);
   opacity: 1;
   transition: opacity 250ms var(--transition-cubic);
+  overflow-y: scroll;
 }
 
 .backdrop.is-hidden {

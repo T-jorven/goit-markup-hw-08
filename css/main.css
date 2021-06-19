@@ -126,6 +126,10 @@ img {
   margin-bottom: 30px;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
@@ -528,8 +532,6 @@ img {
   color: var(--clear-white);
   border: none;
   cursor: pointer;
-  margin-left: 124px;
-  margin-right: 124px;
   margin-top: 30px;
   transition: background 250ms var(--transition-cubic);
 }
@@ -551,6 +553,7 @@ img {
   background-color: var(--backdrop);
   opacity: 1;
   transition: opacity 250ms var(--transition-cubic);
+  overflow-y: scroll;
 }
 
 .backdrop.is-hidden {
