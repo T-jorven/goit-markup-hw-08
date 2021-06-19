@@ -1225,6 +1225,7 @@ img {
 .team-section {
   background-color: var(--button-sorting);
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .team-card__heading {
