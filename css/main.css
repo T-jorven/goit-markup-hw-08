@@ -960,6 +960,7 @@ body.modal-open {
     padding: 0;
     width: 40px;
     height: 40px;
+    z-index: 1;
   }
   .mobile-menu__container {
     position: relative;
