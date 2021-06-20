@@ -86,10 +86,19 @@
 @media screen and (min-width: 768px) {
 	.portfolio__item{
 		width: 354px;
+
+		&:nth-child(2n+1){
+			margin-right: 30px;
+		}
+		&:nth-child(1) > a:nth-child(1) > div:nth-child(2) > p:nth-child(2){
+			margin-bottom: 35px;
+		}
+
 	}
 	.portfolio{
 		display: flex;
 		flex-flow: row wrap;
 
 	}
+	
 }
