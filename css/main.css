@@ -1623,6 +1623,28 @@ img {
   padding-bottom: 60px;
 }
 
+@media screen and (min-width: 768px) {
+  .clients {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .clients__item {
+    flex-basis: 0%;
+    height: 90px;
+    width: 226px;
+    display: flex;
+  }
+  .clients-section {
+    background-color: var(--clear-white);
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .company-link {
+    width: 226px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .footer {
     background-color: var(--footer-background);
