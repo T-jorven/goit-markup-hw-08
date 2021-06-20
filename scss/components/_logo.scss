@@ -34,3 +34,11 @@
 	&__footer {
     color: var(--logo2-footer);}
 	}
+
+@media screen and (min-width: 768px) {
+	.logo-body{
+		display: block;
+		margin-top: 20px;
+		font-size: 24px;
+	}
+}

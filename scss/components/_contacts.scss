@@ -106,11 +106,16 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	width: 165px;
+	margin-left: 84px;
+
 }
 .contact-body__item {
 	&:not(:last-child) {
 		margin-bottom: 10px;
 	}
+}
+.contact{
+	font-size: 12px;
 }
 }
 

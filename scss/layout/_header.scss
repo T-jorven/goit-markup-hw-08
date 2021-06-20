@@ -8,13 +8,20 @@
 	align-items: center;}
 }
 
-
-.header {
-	background-color: var(--clear-white);
-	border-bottom: 1px solid var(--header-border);
-}
 .header__body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
+@media screen and (min-width: 768px) {
+	
+    .header__body {
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;}
+
+}
+.header {
+	background-color: var(--clear-white);
+	border-bottom: 1px solid var(--header-border);}
