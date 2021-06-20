@@ -1,4 +1,16 @@
+.contact__icon-envelope {
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+  margin-right: 10px;
+}
 
+.contact__icon-phone {
+  width: 10px;
+  height: 16px;
+  fill: currentColor;
+  margin-right: 10px;
+}
 .contact-body {
 	display: none;
 }
@@ -93,25 +105,12 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	width: 165px;
 }
 .contact-body__item {
 	&:not(:last-child) {
-		margin-right: 30px;
+		margin-bottom: 10px;
 	}
-}
-
-.contact__icon-envelope {
-  width: 16px;
-  height: 12px;
-  fill: currentColor;
-  margin-right: 10px;
-}
-
-.contact__icon-phone {
-  width: 10px;
-  height: 16px;
-  fill: currentColor;
-  margin-right: 10px;
 }
 }
 
