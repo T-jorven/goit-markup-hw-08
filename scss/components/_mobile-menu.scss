@@ -24,6 +24,7 @@
     height: 100vh;
     background-color: var(--clear-white);
     overflow: auto;
+    z-index: 1;
     
     opacity: 0;
     visibility: hidden;
