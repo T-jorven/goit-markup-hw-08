@@ -1,18 +1,15 @@
-@media screen and (min-width: 1600px) {
-	.header {
-	background-color: var(--clear-white);
-	border-bottom: 1px solid var(--header-border);}
-    .header__body {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;}
-}
 
 .header__body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
+.header {
+	background-color: var(--clear-white);
+	border-bottom: 1px solid var(--header-border);}
+
+//TABLET VERSION
+
 @media screen and (min-width: 768px) {
 	
     .header__body {
@@ -22,6 +19,8 @@
 	align-items: center;}
 
 }
-.header {
-	background-color: var(--clear-white);
-	border-bottom: 1px solid var(--header-border);}
+
+
+//	COMPUTER VERSION
+
+

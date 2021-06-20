@@ -120,3 +120,21 @@
 }
 }
 
+//DESKTOP
+@media screen and (min-width: 1200px) {
+.contact{
+	font-size: 14px;
+}
+.contact-body > li:nth-child(1) {
+	margin-bottom: 0;
+}
+.contact-body{
+	margin-left: auto;
+}
+.contact-body__item{
+	text-align: center;
+	padding-top: 32px;
+	padding-bottom: 30px;
+	
+}
+}

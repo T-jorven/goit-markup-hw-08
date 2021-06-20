@@ -136,7 +136,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .container {
     max-width: 738px;
     margin: 0 auto;
@@ -842,6 +842,23 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
+  .contact {
+    font-size: 14px;
+  }
+  .contact-body > li:nth-child(1) {
+    margin-bottom: 0;
+  }
+  .contact-body {
+    margin-left: auto;
+  }
+  .contact-body__item {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .filter_item:not(:first-child) {
     margin-left: 8px;
   }
@@ -1081,25 +1098,6 @@ img {
   fill: var(--clear-white);
 }
 
-@media screen and (min-width: 1200px) {
-  .logo-body {
-    font-family: "Raleway", "Sans-serif";
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    margin-right: 93px;
-    color: var(--accent-color);
-  }
-  .logo-body__header {
-    color: var(--header-studio);
-  }
-  .logo-body__footer {
-    color: var(--logo2-footer);
-  }
-}
-
 .logo-body {
   font-family: "Raleway", "Sans-serif";
   font-weight: bold;
@@ -1107,7 +1105,7 @@ img {
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-decoration: none;
-  margin-bottom: 20px;
+  display: block;
   color: var(--accent-color);
 }
 
@@ -1121,9 +1119,16 @@ img {
 
 @media screen and (min-width: 768px) {
   .logo-body {
-    display: block;
-    margin-top: 20px;
+    margin-top: 26px;
     font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo-body {
+    font-size: 26px;
+    margin-top: 24px;
+    margin-bottom: 25px;
   }
 }
 
@@ -1908,22 +1913,15 @@ img {
   }
 }
 
-@media screen and (min-width: 1600px) {
-  .header {
-    background-color: var(--clear-white);
-    border-bottom: 1px solid var(--header-border);
-  }
-  .header__body {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-}
-
 .header__body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.header {
+  background-color: var(--clear-white);
+  border-bottom: 1px solid var(--header-border);
 }
 
 @media screen and (min-width: 768px) {
@@ -1932,11 +1930,6 @@ img {
     justify-content: space-between;
     align-items: center;
   }
-}
-
-.header {
-  background-color: var(--clear-white);
-  border-bottom: 1px solid var(--header-border);
 }
 
 @media screen and (min-width: 1200px) {

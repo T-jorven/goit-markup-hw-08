@@ -1,22 +1,3 @@
-@media screen and (min-width: 1200px) {
-.logo-body {
-	font-family: "Raleway", "Sans-serif";
-	font-weight: bold;
-	font-size: 26px;
-	line-height: 1.19;
-	letter-spacing: 0.03em;
-	text-decoration: none;
-	margin-right: 93px;
-	color: var(--accent-color);
-
-	&__header {
-	color: var(--header-studio);}
-
-	&__footer {
-    color: var(--logo2-footer);}
-}
-}
-
 .logo-body {
 	font-family: "Raleway", "Sans-serif";
 	font-weight: bold;
@@ -24,8 +5,8 @@
 	line-height: 1.16;
 	letter-spacing: 0.03em;
 	text-decoration: none;
-	margin-bottom: 20px;
 	
+	display: block;
 	color: var(--accent-color);
 
 	&__header {
@@ -37,8 +18,17 @@
 
 @media screen and (min-width: 768px) {
 	.logo-body{
-		display: block;
-		margin-top: 20px;
+		
+		margin-top: 26px;
 		font-size: 24px;
+	}
+}
+
+//DESKTOP
+@media screen and (min-width: 1200px) {
+	.logo-body{
+		font-size: 26px;
+		margin-top: 24px;
+		margin-bottom: 25px;
 	}
 }
