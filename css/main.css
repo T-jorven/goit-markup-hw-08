@@ -1737,6 +1737,12 @@ img {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/tablet/hero-tablet.jpg");
   }
+  .hero-body {
+    width: 360px;
+  }
+  .hero-body__button {
+    margin-top: 30px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
