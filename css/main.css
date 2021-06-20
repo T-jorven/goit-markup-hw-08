@@ -1456,6 +1456,15 @@ img {
   padding: 77px 24px;
 }
 
+@media screen and (min-width: 768px) {
+  .item-description {
+    padding-top: 63px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    margin: 0;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .portfolio__item {
     margin-bottom: 30px;
