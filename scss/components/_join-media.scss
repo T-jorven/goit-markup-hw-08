@@ -1,77 +1,79 @@
 .join {
-
-  &__text{
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--clear-white);
-  margin-top: 60px;
+  &__text {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--clear-white);
+    margin-top: 60px;
   }
   &__media {
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
   }
-  &__body{
-	width: 206px;
-	margin-left: auto;
+  &__body {
+    width: 206px;
+    margin-left: auto;
     margin-right: auto;
-	}
   }
-
+}
 
 .media-list-item {
-	&:not(:last-child) {
-		margin-right: 10px;
-	}
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 .media-item-footer {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: var(--link-transparency);
-	width: 44px;
-	height: 44px;
-	border-radius: 50%;
-	transition: background-color 250ms var(--transition-cubic);
-	&:hover {
-		background-color: var(--accent-color);
-		.media-icon {
-			fill: var(--clear-white);
-		}
-	}
-	&:focus {
-		background-color: var(--accent-color);
-		.media-icon {
-			fill: var(--clear-white);
-		}
-	}
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--link-transparency);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transition: background-color 250ms var(--transition-cubic);
+  &:hover {
+    background-color: var(--accent-color);
+    .media-icon {
+      fill: var(--clear-white);
+    }
+  }
+  &:focus {
+    background-color: var(--accent-color);
+    .media-icon {
+      fill: var(--clear-white);
+    }
+  }
 }
 .media-icon-footer {
-	fill: var(--clear-white);
+  fill: var(--clear-white);
 }
 
-@media screen and (max-width: 1199px){
-	.join__text{
-		text-align: center;
-	}
+@media screen and (max-width: 1199px) {
+  .join__text {
+    text-align: center;
+  }
 }
 //TABLET
-@media screen and (min-width: 768px){
-	  .join__body{
-     margin-left: 165px;
+@media screen and (min-width: 768px) {
+  .join__body {
+    margin-left: 165px;
   }
 }
 //DESKTOP
 @media screen and (min-width: 1200px) {
-.join {
-  width: 206px;
- 
-  &__body{margin-bottom: 20px;
-	margin-right: 0;
-	margin-left: 70px;}
+  .join {
+    width: 206px;
 
-  &__text{margin-bottom: 20px;}
-}
+    &__body {
+      margin-bottom: 20px;
+      margin-right: 0;
+      margin-left: 70px;
+    }
+
+    &__text {
+      margin-bottom: 20px;
+    }
+  }
 }
