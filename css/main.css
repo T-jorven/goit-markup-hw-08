@@ -538,6 +538,9 @@ img {
   .modal-form {
     max-width: 480px;
   }
+  .modal-form__close-button {
+    top: -290px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -546,6 +549,9 @@ img {
   }
   .modal-form {
     top: 49%;
+  }
+  .modal-form__close-button {
+    top: -290px;
   }
   .modal-form__btn {
     margin-left: 85px;
