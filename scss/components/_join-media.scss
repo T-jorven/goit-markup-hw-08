@@ -77,3 +77,10 @@
     }
   }
 }
+
+.mobile-menu__link:hover,
+.mobile-menu__link--active:hover,
+.mobile-menu__link:focus,
+.mobile-menu__link--active:focus {
+  color: var(--accent-color);
+}
