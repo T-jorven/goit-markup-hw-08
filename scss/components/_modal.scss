@@ -380,6 +380,13 @@
       background: var(--button-focus);
     }
   }
+   .modal-form__agreement-text {
+    margin-left: 26px;
+  }
+  
+  .modal-form__checkbox-policy {
+    position: relative;
+  }
 }
 //phone
 @media screen and (max-width: 767px) {
@@ -412,28 +419,5 @@
 }
 
 
-//DESKTOP
 
-@media screen and (min-width: 1200px) {
-  .modal-form {
-    position: relative;
-    width: 528px;
-    height: 581px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background: var(--clear-white);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-      0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-  }
-  
-  .modal-form__agreement-text {
-    margin-left: 26px;
-  }
-  
-  .modal-form__checkbox-policy {
-    position: relative;
-  }
 
-}
