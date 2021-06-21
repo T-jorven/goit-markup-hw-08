@@ -647,18 +647,6 @@ img {
   .contact-body__item:not(:last-child) {
     margin-right: 30px;
   }
-  .contact__icon-envelope {
-    width: 16px;
-    height: 12px;
-    fill: currentColor;
-    margin-right: 10px;
-  }
-  .contact__icon-phone {
-    width: 10px;
-    height: 16px;
-    fill: currentColor;
-    margin-right: 10px;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -2050,31 +2038,6 @@ img {
   .team-card {
     padding-left: 32px;
     padding-right: 32px;
-  }
-  .media-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--clear-white);
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    transition: background-color 250ms var(--transition-cubic);
-  }
-  .media-item:hover {
-    background-color: var(--accent-color);
-  }
-  .media-item:hover .media-icon {
-    fill: var(--clear-white);
-  }
-  .media-item:focus {
-    background-color: var(--accent-color);
-  }
-  .media-item:focus .media-icon {
-    fill: var(--clear-white);
-  }
-  .media-icon {
-    fill: var(--team-icon);
   }
 }
 /*# sourceMappingURL=main.css.map */

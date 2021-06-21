@@ -100,33 +100,6 @@
 	padding-left: 32px;
 	padding-right: 32px;
 }
-
-
-.media-item {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: var(--clear-white);
-	width: 44px;
-	height: 44px;
-	border-radius: 50%;
-	transition: background-color 250ms var(--transition-cubic);
-	&:hover {
-		background-color: var(--accent-color);
-		.media-icon {
-			fill: var(--clear-white);
-		}
-	}
-	&:focus {
-		background-color: var(--accent-color);
-		.media-icon {
-			fill: var(--clear-white);
-		}
-	}
-}
-.media-icon {
-	fill: var(--team-icon);
-}
 }
 
 
