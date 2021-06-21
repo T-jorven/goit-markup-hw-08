@@ -1628,7 +1628,7 @@ img {
   }
   .subscription {
     width: 570px;
-    margin-left: 93px;
+    margin-left: auto;
   }
   .subscription__body {
     display: flex;
