@@ -1,3 +1,67 @@
+//GENERAL RULE
+.team-photo {
+	border-radius: 0px;
+}
+.team-section {
+	background-color: var(--button-sorting);
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.team-card__heading{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.17;
+	color: var(--title-text-color);
+	margin-bottom: 10px;
+}
+.team-card {
+	background: var(--clear-white);
+	padding-top: 30px;
+	text-align: center;
+	padding-bottom: 30px;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
+	padding-left: 70px;
+	padding-right: 70px;
+	margin-bottom: 30px;
+    &__role {
+	font-size: 16px;
+	margin-bottom: 16px;
+	color: var(--main-text-color)}
+    &__media {
+	display: flex;
+	justify-content: space-between;}
+}
+.media-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--clear-white);
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	transition: background-color 250ms var(--transition-cubic);
+	&:hover {
+		background-color: var(--accent-color);
+		.media-icon {
+			fill: var(--clear-white);
+		}
+	}
+	&:focus {
+		background-color: var(--accent-color);
+		.media-icon {
+			fill: var(--clear-white);
+		}
+	}
+}
+.media-icon {
+	fill: var(--team-icon);
+}
+.team-photo {
+	border-radius: 0px;
+	margin-top: 30px;
+	width: 100%;
+}
 //tablet
 
 @media screen and (min-width: 768px) {
@@ -24,30 +88,10 @@
 .team-section {
 	background-color: var(--button-sorting);
 }
-.team-card__heading {
-	font-size: 16px;
-	font-weight: 500;
-	line-height: 1.17;
-	color: var(--title-text-color);
-	margin-bottom: 10px;
-}
 .team-card {
-	background: var(--clear-white);
-	padding-top: 30px;
-	text-align: center;
-	padding-bottom: 30px;
-	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-	border-radius: 0px 0px 4px 4px;
+		
 	padding-left: 32px;
 	padding-right: 32px;
-
-    &__role {
-	font-size: 16px;
-	margin-bottom: 16px;}
-
-    &__media {
-	display: flex;
-	justify-content: space-between;}
 }
 
 
