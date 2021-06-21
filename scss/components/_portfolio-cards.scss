@@ -40,6 +40,11 @@
 	}
 }
 
+@media screen and (max-width: 767px){
+	.portfolio__item{
+		max-width: 450px;
+	}
+}
 //tablet
 @media screen and (min-width: 768px) and (max-width: 1199px) {
 	.portfolio__item{

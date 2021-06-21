@@ -26,6 +26,7 @@
   padding-bottom: 60px;
   padding-top: 60px;
   }
+  
 }
 
 //tablet
@@ -33,10 +34,15 @@
    .footer__body {
   padding-bottom: 60px;
   }
+   
 }
 @media screen and (max-width: 1199px) {
   .subscription__heading{
     text-align: center;
+  }
+   .address-wrapper{
+    margin-left: auto;
+    margin-right: auto;
   }
   
 }
