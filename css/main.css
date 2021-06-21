@@ -37,51 +37,6 @@
   overflow: hidden;
 }
 
-@media screen and (min-width: 1200px) {
-  body {
-    background-color: var(--clear-white);
-    font-family: "Roboto", "Serif";
-    color: var(--main-text-color);
-    font-size: 14px;
-    line-height: 24px;
-    box-sizing: border-box;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  .title {
-    color: var(--title-text-color);
-    margin-bottom: 50px;
-    text-align: center;
-    font-size: 36px;
-  }
-  .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-  .menu-list--current.link,
-  .menu-list--inactive.link,
-  .contact.link,
-  .contact-footer.link,
-  .portfolio-link {
-    text-decoration: none;
-  }
-  .menu-list--current.link {
-    text-decoration: none;
-  }
-  .menu-list--inactive.link {
-    text-decoration: none;
-  }
-  .contact.link {
-    text-decoration: none;
-  }
-  .contact-footer.link {
-    text-decoration: none;
-  }
-  .portfolio-link {
-    text-decoration: none;
-  }
-}
-
 h1 {
   margin: 0;
   padding: 0;
@@ -125,6 +80,51 @@ img {
   color: var(--title-text-color);
   font-size: 28px;
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: var(--clear-white);
+    font-family: "Roboto", "Serif";
+    color: var(--main-text-color);
+    font-size: 14px;
+    line-height: 24px;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .title {
+    color: var(--title-text-color);
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 36px;
+  }
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .menu-list--current.link,
+  .menu-list--inactive.link,
+  .contact.link,
+  .contact-footer.link,
+  .portfolio-link {
+    text-decoration: none;
+  }
+  .menu-list--current.link {
+    text-decoration: none;
+  }
+  .menu-list--inactive.link {
+    text-decoration: none;
+  }
+  .contact.link {
+    text-decoration: none;
+  }
+  .contact-footer.link {
+    text-decoration: none;
+  }
+  .portfolio-link {
+    text-decoration: none;
+  }
 }
 
 @media screen and (min-width: 1200px) {
