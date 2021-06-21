@@ -1,3 +1,10 @@
+@media screen and (max-width: 1199px) {
+.overview-section {
+	display: none;
+}
+}
+
+//DESKTOP
 @media screen and (min-width: 1200px) {
 .overview-section {
 	padding-bottom: 95px;
@@ -35,11 +42,4 @@
 	margin-right: -30px;
 }
 }
-@media screen and (max-width: 1199px) {
-.overview-section {
-	display: none;
-}
-}
-
-//OVERVIEW IMAGES
 

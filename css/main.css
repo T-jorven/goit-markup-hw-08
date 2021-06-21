@@ -2046,6 +2046,12 @@ img {
   }
 }
 
+@media screen and (max-width: 1199px) {
+  .overview-section {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .overview-section {
     padding-bottom: 95px;
@@ -2082,12 +2088,6 @@ img {
   }
   .overview-text {
     margin-right: -30px;
-  }
-}
-
-@media screen and (max-width: 1199px) {
-  .overview-section {
-    display: none;
   }
 }
 
