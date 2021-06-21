@@ -1,24 +1,3 @@
-@media screen and (min-width: 1200px) {
-.footer {
-  background-color: var(--footer-background);
-  
-  &__body {
-  display: flex;
-  align-items: baseline;
- 
-}
-}}
-
-
-.footer {
- background-color: var(--footer-background);
-  
-  &__body {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  text-align: center;
-}}
-
 //tablet
 @media screen and (min-width: 768px) {
   .footer {
@@ -43,3 +22,20 @@
     display:inline;
   }
 }
+
+//DESKTOP
+
+@media screen and (min-width: 1200px) {
+.footer {
+  background-color: var(--footer-background);
+  
+  &__body {
+  display: flex;
+  align-items: baseline;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.address-wrapper {
+  margin-left: 0;
+}
+}}

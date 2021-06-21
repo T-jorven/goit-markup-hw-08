@@ -1,42 +1,3 @@
-@media screen and (min-width: 1200px) {
-.join {
-  width: 206px;
- 
-  &__body{margin-bottom: 20px;}
-}
-
-.media-list-item {
-	&:not(:last-child) {
-		margin-right: 10px;
-	}
-}
-.media-item-footer {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: var(--link-transparency);
-	width: 44px;
-	height: 44px;
-	border-radius: 50%;
-	transition: background-color 250ms var(--transition-cubic);
-	&:hover {
-		background-color: var(--accent-color);
-		.media-icon {
-			fill: var(--clear-white);
-		}
-	}
-	&:focus {
-		background-color: var(--accent-color);
-		.media-icon {
-			fill: var(--clear-white);
-		}
-	}
-}
-.media-icon-footer {
-	fill: var(--clear-white);
-}
-}
-
 .join {
 
   &__text{
@@ -89,4 +50,17 @@
 }
 .media-icon-footer {
 	fill: var(--clear-white);
+}
+
+//DESKTOP
+@media screen and (min-width: 1200px) {
+.join {
+  width: 206px;
+ 
+  &__body{margin-bottom: 20px;
+	margin-right: 0;}
+  &__text{margin-bottom: 20px;}
+}
+
+
 }

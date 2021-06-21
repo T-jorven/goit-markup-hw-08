@@ -1,15 +1,4 @@
-@media screen and (min-width: 1200px) {
-.join__media {
-  display: flex;
-}
-.subscription {
-	margin-left: auto;
-}
-.subscription__body {
-	display: flex;
-	width: 100vm;}
-}
-
+//GENERAL RULE
 .subscription {
 	width: 100%;
 	&__body{
@@ -86,9 +75,66 @@
 	margin-left: 10px;
 }
 
-@media screen and (min-width: 768px) {
+//TABLET
+@media screen and (min-width: 768px) and (max-width: 1199px) {
 	.email-input {
 	width: 450px;
 	}
+}
 
+//DESKTOP
+
+@media screen and (min-width: 1200px) {
+
+.join__media {
+  display: flex;
+}
+
+.email-input {
+	width:358px;
+	display: flex;
+	
+}
+.subscription {
+	
+	width: 570px;
+	margin-left: 0;
+}
+.subscription__body {
+	display: flex;
+}
+.subscription-btn {
+	background-color: var(--accent-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	margin-left: 12px;
+	padding-left: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 0;
+	border: none;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	cursor: pointer;
+	width: 200px;
+	transition: background 250ms var(--transition-cubic);
+	&:hover {
+		background: var(--button-focus);
+	}
+	&:focus {
+		background: var(--button-focus);
+	}
+}
+.subscription-btn__text {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.8;
+	color: var(--item-description);
+}
+.subscription-btn__icon {
+	fill: var(--clear-white);
+	margin-left: 10px;
+}
 }
