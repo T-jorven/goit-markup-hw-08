@@ -37,6 +37,13 @@ img {
 	font-size: 28px;
 	margin-bottom: 30px;
 }
+@media screen and (max-width: 480) {
+	.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+	
+}
 
 //DESKTOP
 
