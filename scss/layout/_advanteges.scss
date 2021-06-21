@@ -31,7 +31,13 @@
 	
 }
 }
-
+//phone
+@media screen and (max-width: 767px) {
+		.advantages-item {
+			margin-left: 0;
+		}
+		
+}
 
 //tablet
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -44,10 +50,14 @@
 	&-item {
 		width:354px
 	}
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+	.advantages{
 	&-item:nth-child(2n+1) {
 		margin-right: 30px;
 	}
-}
+	}
 }
 
 @media screen and (min-width: 1200px) {
@@ -62,21 +72,17 @@
 	}
 }
 .advantages-item {
-	&:not(:first-child) {
-		margin-left: 30px;
-	}
     
     &__description {
 	width: 270px;
 	}
 
 }
+@media screen and (min-width: 1200px) {
+.advantages-item {
 
-//phone
-@media screen and (max-width: 767px) {
-		.advantages-item {
-			margin-left: 0;
-		}
-		
+&:not(:first-child) {
+		margin-left: 30px;
+	}
 }
-	
+}

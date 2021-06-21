@@ -30,24 +30,8 @@
 
 //tablet
 @media screen and (min-width: 768px){
-  .footer {
-  background-color: var(--footer-background);
-  
-  &__body {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
- 
-  }}
-
-
-  .address-wrapper{
-    text-align: center;
-    margin-left: 60px;
-
-  }
-  .address-wrapper > a:nth-child(1){
-    display:inline;
+   .footer__body {
+  padding-bottom: 60px;
   }
 }
 @media screen and (max-width: 1199px) {

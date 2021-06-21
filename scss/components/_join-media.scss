@@ -51,6 +51,12 @@
 .media-icon-footer {
 	fill: var(--clear-white);
 }
+
+@media screen and (max-width: 1199px){
+	.join__text{
+		text-align: center;
+	}
+}
 //TABLET
 @media screen and (min-width: 768px){
 	  .join__body{
