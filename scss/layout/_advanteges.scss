@@ -37,6 +37,7 @@
 			margin-left: 0;
 		}
 		
+		
 }
 
 //tablet
@@ -70,14 +71,16 @@
 	&-item {
 		width: 270px;
 	}
-}
-.advantages-item {
+	.advantages-item {
     
     &__description {
 	width: 270px;
 	}
 
 }
+}
+
+
 @media screen and (min-width: 1200px) {
 .advantages-item {
 

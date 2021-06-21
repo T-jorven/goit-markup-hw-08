@@ -1567,10 +1567,9 @@ img {
   -item {
     width: 270px;
   }
-}
-
-.advantages-item__description {
-  width: 270px;
+  .advantages-item__description {
+    width: 270px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1819,6 +1818,12 @@ img {
   }
   .hero-body {
     min-width: 770px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero {
+    background-image: url("../images/hero/mobile/hero-mobile.jpg");
   }
 }
 

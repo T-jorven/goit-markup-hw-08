@@ -79,6 +79,11 @@
 }
 
 //BACKGROUND PICTURES HERO
+@media screen and (max-width: 767px) {
+  .hero {
+    background-image: url("../images/hero/mobile/hero-mobile.jpg");
+  }
+}
 @media (min-device-pixel-ratio: 2) and (max-width: 767px),
   (min-resolution: 192dpi) and (max-width: 767px),
   (min-resolution: 2dppx) and (max-width: 767px) {
