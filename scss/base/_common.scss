@@ -44,7 +44,13 @@ img {
 }
 	
 }
-
+//tablet
+@media screen and (min-width: 768px) {
+	.section{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+}
 //DESKTOP
 
 @media screen and (min-width: 1200px) {
