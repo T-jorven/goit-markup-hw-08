@@ -1,5 +1,5 @@
 //tablet
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
   .footer {
   background-color: var(--footer-background);
   
@@ -10,9 +10,7 @@
  
   }}
 
-  .join__body{
-     margin-left: 165px;
-  }
+
   .address-wrapper{
     text-align: center;
     margin-left: 60px;
@@ -38,4 +36,5 @@
 .address-wrapper {
   margin-left: 0;
 }
+
 }}

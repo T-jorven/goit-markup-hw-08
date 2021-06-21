@@ -51,16 +51,21 @@
 .media-icon-footer {
 	fill: var(--clear-white);
 }
-
+//TABLET
+@media screen and (min-width: 768px){
+	  .join__body{
+     margin-left: 165px;
+  }
+}
 //DESKTOP
 @media screen and (min-width: 1200px) {
 .join {
   width: 206px;
  
   &__body{margin-bottom: 20px;
-	margin-right: 0;}
+	margin-right: 0;
+	margin-left: 70px;}
+
   &__text{margin-bottom: 20px;}
 }
-
-
 }
